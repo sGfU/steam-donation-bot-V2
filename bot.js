@@ -33,12 +33,12 @@ client.logOn(logOnOptions);
 // these events happen when the bot is logged in
 
 client.on('loggedOn', () => {
-        console.log('[!]Logged into Steam!');
+        console.log('[!]Bot is now logged into Steam!');
     
         client.setPersona(SteamUser.Steam.EPersonaState.Online, config.steam.botname);
         client.gamesPlayed(440);
 
-        console.log('[!]Playing a gay Free To Play game cause ur mum gey');
+        console.log('[!]Bot is now playing TF2');
 });
 
 // this function loads up the trade offers 
