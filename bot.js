@@ -56,9 +56,7 @@ client.on('friendRelationship', (steamid, relationship) => {
     if (relationship === 2) {
         client.addFriend(steamid);
         console.log('[!]Someone added the bot!'); 
-        client.chatMessage(steamid, `Hello! Thank you for adding my test bot ;D!`); // optional, these can be removed/edited
-        client.chatMessage(steamid, `If you have any questions contact my owner, sGfU, at http://steamcommunity.com/id/sgfu`); // optional, these can be removed/edited
-        client.chatMessage(steamid, `Tristan is bae!!!! <3`); // optional, these can be removed/edited
+        client.chatMessage(steamid, `*insert message here`); // optional, these can be removed/edited
     }
 });
 
